@@ -29,6 +29,7 @@ public class Review05 {
             // DB接続確認
             if (con == null || con.isClosed()) {
                 System.out.println("DBの接続ができていないか、接続か切れています。");
+                return;
             }
 
             // PreparedStatementオブジェクトの作成
